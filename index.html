@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plushie Profit Calculator</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧸 Torn Plushie Profit Calculator</h1>
+    <p>Select the plushies you want to calculate:</p>
+    <select id="plushieSelect" multiple>
+      <option value="Chamois">Chamois Plushie (Switzerland)</option>
+      <option value="Wolverine">Wolverine Plushie (Canada)</option>
+      <option value="Stingray">Stingray Plushie (Cayman Island)</option>
+      <option value="Jaguar">Jaguar Plushie (Mexico)</option>
+      <option value="Nessie">Nessie Plushie (UK)</option>
+      <option value="RedFox">Red Fox Plushie (UK)</option>
+      <option value="Monkey">Monkey Plushie (Argentina)</option>
+      <option value="Panda">Panda Plushie (China)</option>
+      <option value="Lion">Lion Plushie (South Africa)</option>
+      <option value="Camel">Camel Plushie (UAE)</option>
+    </select>
+
+    <button onclick="calculate()">Calculate</button>
+    <div id="resultTable"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
